@@ -1,0 +1,284 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color:#35424A ;
+    border-bottom: 3px solid #9A5088;
+}
+
+.container{
+    color:white;
+    display: flex;
+    height: 5vh;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+
+}
+ul li a{
+   
+    color: white;
+    text-decoration: none;
+}
+ul li {
+    list-style: none;
+    color: white;
+    padding: 1rem;    
+    display: inline;
+}
+ul{
+   justify-content: center;
+   align-content: center;
+}
+span{
+    color:#9A5088;
+}
+
+.container ul li a:hover{
+    color:#9A5088;
+    font-weight: 900;
+}
+main{
+   background-image: url("./img/showcase.jpg");
+   background-size: cover;
+   height: 30vh;
+   color:white;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+main h2{
+    font-size: 3rem;
+    line-height: 6rem;
+}
+
+main p {
+    font-size: 1.2rem;
+}
+
+.section1{
+    background-color: #35424A;
+    display: flex;
+    height:5vh ;
+    /* justify-content:center ; */
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+section h4{
+    font-size:1.2rem;
+}
+#email{
+    font-size:1rem;
+    width: 12rem;
+    height: 1.5rem;
+}
+#btn{
+    height: 1.5rem;
+    width: 6rem;
+    color: white;
+    background-color: orangered;
+    border:none;
+    margin-right: 0.5rem;
+    font-size:1rem;
+}
+article{
+    display:flex;
+    padding: 1rem;
+    justify-content:center ;
+    align-items: center;
+    height: 49.5vh;
+    padding-top: 1rem;
+    
+}
+.part1{
+   
+    width: 62%;
+    float: left;
+}
+.part2{
+    padding: 2rem;
+    border:1px solid blue;
+    width: 32%;
+    height: 30vh;
+    float: right;
+    background-color: #35424A;
+    color:white;
+    /* display: flex; */
+    /* flex-direction: column; */
+    
+}
+.part2 p{
+    display: inline;
+
+}
+.part1-services{
+   
+    width: 70%;
+    float: left;
+    
+  
+}
+.part1-services h1 {
+    margin-bottom:1rem;
+}
+.part1-services h4 {
+    font-size: 20px;
+}
+.part1-services1{
+  
+    height: 8rem;
+    margin-bottom: 1rem;
+    background-color:  #E6E6E6;
+    padding: 2rem;
+    line-height: 1.7rem;
+}
+.part1-services2{
+    
+    height: 8rem;
+    margin-bottom: 1rem;
+    background-color:  #E6E6E6;
+    padding: 2rem;
+    line-height: 1.7rem;
+}
+.part1-services3{
+   
+    height: 8rem;
+    background-color:  #E6E6E6;
+    padding: 2rem;
+    line-height: 1.7rem;
+}
+.part2-services{
+    padding: 1rem;
+    
+    width: 25%;
+    height: 38vh;
+    float: right;
+    background-color: #35424A;
+    color:white;
+    /* display: flex; */
+    /* flex-direction: column; */
+    
+}
+.part2-services input, textarea, #email{
+    width: 13rem;
+    height: 1.5rem;
+}
+.part2-services button{
+    width: 5rem;
+    height: 2rem;
+    color:white;
+    background-color: orangered;
+    border: none;
+
+}
+.part2-services h2{
+    padding-bottom: 1rem;
+}
+.part2 p{
+    display: inline;
+
+}
+.services
+{
+    display: block;
+    height: 79.5vh;
+    margin: 0;
+    padding: 1rem;
+}
+
+.article__about
+{
+    display: block;
+    height: 79.5vh;
+    margin: 0;
+    padding: 1rem;
+}
+.article__about h1{
+    line-height: 3rem;
+}
+.article__about p{
+    width: 60vw;
+    
+}
+.article__about .p1{
+    text-align: left;
+    padding-bottom: 1rem;
+}
+
+.article__about .p2{
+    background-color: #35424A;
+    color: white;
+    text-align: justify;
+    padding: 1rem;
+}
+
+.html{
+    width: 37vw;
+    justify-content: center;
+    padding-top: 1rem;
+    display:flex;
+    flex-direction: column;
+
+    height: 30vh;
+    justify-content: center;
+    align-items: center;    
+}
+.html p{
+ text-align:center;
+}
+.css{
+    width: 37vw;
+    justify-content: center;
+    padding-top: 1rem;
+    display:flex;
+    flex-direction: column;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;  
+}
+
+.css p{
+    text-align: center;
+}
+.design{
+    width: 37vw;
+    justify-content: center;
+    padding-top: 1rem;
+    display:flex;
+    flex-direction: column;
+    height: 30vh;
+    justify-content: center;
+    align-items: center; 
+}
+.design p{
+    text-align: center;
+}
+
+footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #35424A;
+    height: 10vh;
+}
+footer img{
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-left: 10vw;
+    height: 6vh;
+}
+
+footer h4{
+    color:white;
+    padding-left: 5vw;
+    height: 4vh;
+}
